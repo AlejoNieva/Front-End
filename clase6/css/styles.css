@@ -1,0 +1,26 @@
+body{font-family: 'Times New Roman', Times, serif;}
+header{
+    background-color:#E6E6E6;
+    text-align: center;
+}
+.titulos{
+    background-color:#C4C4C4;
+    color: #005677;
+}
+.item{
+    font-weight: bold;
+    font-style: italic;
+}
+.item2{
+    font-weight: bold;
+}
+footer{
+    background-color: #005677;
+    color: white;
+    line-height: 37.94px;
+    text-align: center;
+}
+.numero-footer{
+    font-weight: bold;
+    font-size: 20px;
+}
