@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+header{
+    background-attachment: scroll;
+    background-image: url(../images/HLN.png), url(../images/bsas.jpg);
+    background-position: center, top center;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+}
+.titulos{
+    background-color:#C4C4C4;
+    color: #005677;
+}
+.item{
+    font-weight: bold;
+    font-style: italic;
+}
+.item2{
+    font-weight: bold;
+}
+footer{
+    background-color: #005677;
+    color: white;
+    line-height: 37.94px;
+    text-align: center;
+}
+.numero-footer{
+    font-weight: bold;
+    font-size: 20px;
+}
+.titulo-principal{
+    background-color:#C4C4C4;
+    color: #005677;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+.link{
+    font-size: 20px;
+    color: #005677
+}
+i{
+    font-size: 23px;
+    color: white
+}
