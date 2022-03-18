@@ -1,0 +1,66 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-alto{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.especial{
+    background-color: #F0A83E;
+    color: white
+}
+
+.publicidad{
+    background-image: url(../images/bowl-and-pet-daities-on-green-background1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 409px;
+    text-align: center;
+}
+
+.titulo-publicidad{
+    background-color: white;
+    font-size: 30px;
+}
+
+.comederos-publicidad{
+    color: white;
+    background-color: #F0A83E;
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+.footer-alto{
+    background-color: #3C2313;
+}
+
+.footer-bajo{
+    background-color: #F0A83E;
+    color: white;
+}
+
+i{
+    color: white;
+    font-size: 66px;
+}
+
+.item-footer{
+    color: white
+}
+
+.item-footer2{
+    color:gray
+}
