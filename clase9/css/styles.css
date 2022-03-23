@@ -1,0 +1,122 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-alto{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    position: relative;
+}
+
+.descuentos{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+}
+
+.header-bajo{
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    position: relative;
+    bottom: 21px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-weight: 400;
+}
+
+.heroes{
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    font-size: 40px;
+}
+
+section{
+    position: relative;
+    top: 153px;
+    left: 32px;
+}
+
+article{
+    position: absolute;
+}
+
+div{
+    position: absolute;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 300px;
+    height: 529px;
+}
+
+.harley{
+    left: 330px;
+}
+
+.batman2{
+    left: 660px;
+}
+
+i{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 21px;
+    top: 15px;
+}
+
+.icono{
+    position: relative;
+    bottom: 66px;
+}
+
+h2{
+    position: relative;
+    bottom: 82px;
+    font-weight: 400;
+}
+
+.info{
+    text-align: left;
+    position: absolute;
+    left: 16px;
+    bottom: 100px;
+    height: 113px;
+    width: 267px;
+}
+
+.mas_info{
+    background-color: #00669F;
+    color: white;
+    width: 128px;
+    height: 48px;
+    position: absolute;
+    left: 85px;
+    bottom: 18px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    top: 14px;
+}
+
+footer{
+    position: absolute;
+    top: 972px;
+    background-color: #00669F;
+    color: white;
+    width: 100%;
+}
+
+.footer{
+    position: relative;
+    left: 16px;
+}
