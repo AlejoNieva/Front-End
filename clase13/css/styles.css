@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+.harley{
+    display: none;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    height: 10vh;
+    z-index: 10;
+}
+
+.header-alto{
+    background-color: #D1891C;
+    font-size: 1rem;
+}
+
+.descuentos{
+    margin-left: 5%;
+}
+
+.header-bajo{
+    background-color: #00669F;
+    color: white;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+.heroes{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+.plus{
+    background-color: #00669F;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 15%;
+    z-index: 4;
+    right: 3%;
+}
+
+div{
+    background-color: #F3F3F3;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fondo{
+    width: 100%;
+    z-index: 1;
+    border-radius: 10% 10% 0% 0%;
+    margin-bottom: 3rem;
+}
+
+.icono{
+    width: 40%;
+    position: absolute;
+    top: 6rem;
+    left: 30%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+i{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 2rem;
+    color: #CC2424;
+    z-index: 1;
+}
+
+h2{
+    margin-bottom: rem;
+}
+
+.info{
+    text-align: left;
+    margin: 1rem;
+    height: 14rem;
+    font-size: 0.9rem;
+}
+
+.mas_info{
+    background-color: #00669F;
+    color: white;
+    font-size: 0.9rem;
+    width: 40%;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30%;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    height: 5%;
+    width: 100%;
+    z-index: 2;
+}
+.github{
+    width: 4rem;
+    margin-right: 0.5rem;
+}
+
+.footer{
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+@media (min-width: 460px){
+    .harley{
+        display: flex;
+    }
+    
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    div{
+        width: 40%;
+        margin: 0% 5% 10%;
+        height: 35rem;
+    }
+    
+    .info{
+        height: 10rem;
+    }
+    
+    .footer{
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .plus{
+        right: 0.5%;
+        top: 13%;
+    }
+}
